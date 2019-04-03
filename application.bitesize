@@ -1,7 +1,7 @@
 project: spring-demo
 applications:
   - name: spring-app
-    runtime: ubuntu-jdk8:1.0
+    runtime: nginx:1.15
     version: "0.1.0"
     dependencies:
       - name: spring-app
