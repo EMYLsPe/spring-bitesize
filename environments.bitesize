@@ -9,4 +9,12 @@ environments:
         external_url: chethiya-spring.prsn.io
         port: 80
         replicas: 2
-       
+   - name: prd
+    namespace: spring-demo-prd
+    deployment:
+      method: rolling-upgrade
+    services:
+      - name: spring-application
+        external_url: chethiya-spring-demo.prsn.io
+        port: 80
+        replicas: 2
