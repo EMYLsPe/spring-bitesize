@@ -5,7 +5,8 @@ environments:
     deployment:
       method: rolling-upgrade
     services:
-      - name: spring-application
+      - name: spring-app
         external_url: chethiya-spring.prsn.io
-        port: 80
+        port: 8080
+        ssl: "false"
         replicas: 2
