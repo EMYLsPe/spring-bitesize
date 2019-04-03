@@ -1,7 +1,7 @@
-project: chethiya
+project: spring-demo
 environments:
-  - name: Production
-    namespace: chethiya-prd
+  - name: dev
+    namespace: spring-demo-dev
     deployment:
       method: rolling-upgrade
     services:
@@ -9,8 +9,3 @@ environments:
         external_url: chethiya-spring.prsn.io
         port: 80
         replicas: 2
-        env:
-          - name: NODE_ENV
-            value: "paas"
-          - name: PAAS_ENV
-            value: "nfm"
