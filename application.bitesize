@@ -1,9 +1,12 @@
 project: spring-demo
 applications:
-  - name: spring-application
+  - name: spring-app
     runtime: ubuntu-jdk8:1.0
     version: "0.1.0"
     dependencies:
-      - name: spring-appdepend
+      - name: spring-app
         type: debian-package
-    command: "java -jar /app/assignment-service-1.0.0.jar"
+        origin:
+          build: spring-app
+        version: 1.0
+    command: "java -jar /app/SpringBoot-1.0.0.jar"
