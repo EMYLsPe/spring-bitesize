@@ -11,3 +11,4 @@ components:
       - shell: sudo cp -rf target/*.jar /app
       - shell: sudo /usr/local/bin/fpm -s dir -n spring-app --iteration $(date "+%Y%m%d%H%M%S") -t deb /app
     artifacts:
+      - location: "*.deb"
