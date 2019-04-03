@@ -1,6 +1,6 @@
 project: spring-demo
 environments:
-   - name: dev
+  - name: dev
     namespace: spring-demo-dev
     deployment:
       method: rolling-upgrade
