@@ -1,6 +1,6 @@
 project: spring-demo
 components:
-   - name: spring-application
+  - name: spring-application
     os: linux
     repository:
       git: git@github.com:chethiya1996/spring-boot.git
