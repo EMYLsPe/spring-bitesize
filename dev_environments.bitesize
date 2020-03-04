@@ -1,7 +1,7 @@
-project: spring-demo
+project: EO
 environments:
   - name: dev
-    namespace: spring-demo-dev
+    namespace: test
     deployment:
       method: rolling-upgrade
     services:
