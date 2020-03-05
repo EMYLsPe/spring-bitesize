@@ -1,6 +1,6 @@
 project: glp2
 environments:
-  - name: paas1
+  - name: dev
     namespace: glp2-paas1
     deployment:
       method: rolling-upgrade
