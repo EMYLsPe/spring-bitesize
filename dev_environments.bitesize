@@ -1,7 +1,7 @@
-project: EO
+project: glp2
 environments:
-  - name: dev
-    namespace: test
+  - name: paas1
+    namespace: glp2-paas1
     deployment:
       method: rolling-upgrade
     services:
