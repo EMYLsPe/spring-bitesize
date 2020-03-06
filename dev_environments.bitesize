@@ -1,7 +1,7 @@
 project: glp2
 environments:
   - name: dev
-    namespace: glp2-paas1
+    namespace: hello
     deployment:
       method: rolling-upgrade
     services:
