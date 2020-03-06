@@ -1,11 +1,11 @@
 project: spring-demo
 environments:
   - name: dev
-    namespace: spring-demo-dev
+    namespace: spring-demo-devhello
     deployment:
       method: rolling-upgrade
     services:
       - name: spring-application
-        external_url: chethiya-spring.prsn.io
+        external_url: chethiya-spring.dev.prsn.io
         port: 80
         replicas: 2
