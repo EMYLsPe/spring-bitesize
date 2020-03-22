@@ -6,6 +6,6 @@ environments:
       method: rolling-upgrade
     services:
       - name: spring-application
-        external_url: chethiya-spring.dev.prsn.io
+        external_url: chethiya-spring.emyls27.us-east-2.dev.prsn.io
         port: 80
         replicas: 2
