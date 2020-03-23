@@ -10,7 +10,7 @@ environments:
         port: 80
         replicas: 2
       - name: mytpr
-        namespace: sample-app
+        namespace: hello
         version: "5.6"
         type: mysql
       - type: postgres
