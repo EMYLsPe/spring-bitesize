@@ -9,16 +9,3 @@ environments:
         external_url: chethiya-spring.emyls28.us-east-2.dev.prsn.io
         port: 80
         replicas: 2
-      - name: mytpr
-        namespace: hello
-        version: "5.6"
-        type: mysql
-      - type: postgres
-        name: glp-bridge-kong
-        options:
-          version: 9.6.6
-          replicas: 1
-          multiaz: false
-          dbinstanceclass: db.m4.large
-          allocatedstorage: 200
-
