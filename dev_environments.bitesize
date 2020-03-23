@@ -13,3 +13,12 @@ environments:
         namespace: sample-app
         version: "5.6"
         type: mysql
+      - type: postgres
+        name: glp-bridge-kong
+        options:
+          version: 9.6.6
+          replicas: 1
+          multiaz: false
+          dbinstanceclass: db.m4.large
+          allocatedstorage: 200
+
