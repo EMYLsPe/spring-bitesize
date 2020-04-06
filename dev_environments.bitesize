@@ -1,6 +1,6 @@
 project: glp2
 environments:
-  - name: dev
+  - name: development
     namespace: hello
     deployment:
       method: rolling-upgrade
